@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NADRA Virtual Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <div class="container">
+        <div class="header">
+            NADRA Virtual Assistant
+        </div>
+        <div class="auth-container" id="authContainer">
+            <h1>Welcome to NADRA Assistant</h1>
+            <div class="tabs">
+                <button class="tab-button active" data-tab="login">Login</button>
+                <button class="tab-button" data-tab="register">Register</button>
+            </div>
+            <div class="tab-content" id="loginTab">
+                <div class="form-container">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button id="loginButton">Login</button>
+                </div>
+            </div>
+            <div class="tab-content hidden" id="registerTab">
+                <div class="form-container">
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                    <input type="email" id="registerEmail" placeholder="Email" required>
+                    <input type="password" id="registerPassword" placeholder="Password" required>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                    <button id="registerButton">Register</button>
+                </div>
+            </div>
+        </div>
+        <div id="chatInterface" class="chat-interface hidden">
+            <div class="chat-layout">
+                <div class="chat-history-sidebar">
+                    <div class="sidebar-header">
+                        Chat History
+                    </div>
+                    <ul id="chatHistoryList"></ul>
+                </div>
+                <div class="chat-main">
+                    <div id="chatHistory" class="chat-history"></div>
+                    <div class="chat-input-container">
+                        <input type="text" id="chatInput" placeholder="Type your message here...">
+                        <button id="sendButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
