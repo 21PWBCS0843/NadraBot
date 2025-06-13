@@ -86,7 +86,7 @@ Before you begin, ensure you have:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/nadra-virtual-assistant.git
+   git clone https://github.com/21PWBCS0843/NadraBot
    cd nadra-virtual-assistant
    ```
 
