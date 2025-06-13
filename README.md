@@ -1,4 +1,4 @@
-# NADRA Virtual Assistant 🇵🇰
+# NADRA Virtual Assistant
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen" alt="Status">
@@ -263,17 +263,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🔄 **Testing**: Ongoing quality assurance
 - 🚀 **Deployment**: Ready for production
 
----
-
-<div align="center">
-  <h3>🇵🇰 Made with ❤️ for the people of Pakistan</h3>
-  <p><em>Bridging the gap between citizens and government services through technology</em></p>
-  
-  <br>
-  
-  **[📖 Read Full Documentation](docs/README.md) | [🚀 View Live Demo](https://your-demo-link.com) | [🐛 Report Issues](https://github.com/yourusername/nadra-virtual-assistant/issues)**
-</div>
-
----
 
 *This project is an independent initiative aimed at improving government service accessibility. It is not officially affiliated with NADRA but uses publicly available documentation to provide accurate information.*
