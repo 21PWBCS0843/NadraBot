@@ -1,6 +1,5 @@
 # NADRA Virtual Assistant
 
-![NADRA Virtual Assistant](https://placeholder.svg?height=200&width=600&text=NADRA+Virtual+Assistant)
 
 A conversational AI assistant that provides information about NADRA (National Database and Registration Authority) services and documentation requirements. This application uses Retrieval Augmented Generation (RAG) to deliver accurate, context-aware responses based on official NADRA documentation.
 
@@ -39,5 +38,5 @@ A conversational AI assistant that provides information about NADRA (National Da
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/nadra-virtual-assistant.git
+git clone https://https://github.com/21PWBCS0843/NadraBot
 cd nadra-virtual-assistant
